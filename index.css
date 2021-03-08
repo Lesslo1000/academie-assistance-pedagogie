@@ -1,0 +1,75 @@
+.title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(wes-hicks-4-EeTnaC1S4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-self: center;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    width: 460px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 4px;
+    padding: 8px;
+    border: 1px solid #CCC;
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: #FFF;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
